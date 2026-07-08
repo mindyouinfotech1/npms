@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="rentloco">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>NPMS</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body style="margin:0;overflow:hidden;background:#081A3A;">
+
+<div id="loading">
+
+    <div class="logo-wrapper">
+        <img src="assets/logo.jpeg" alt="NPMS">
+    </div>
+
+    <h1>NPMS</h1>
+
+    <h3>KAIMUR POLICE</h3>
+
+    <p>Night Patrol Monitoring System</p>
+
+    <div class="loader"></div>
+
+</div>
+
+<style>
+
+html,
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:#081A3A;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#loading{
+
+    position:fixed;
+
+    left:0;
+    top:0;
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    background:#081A3A;
+}
+
+.logo-wrapper{
+
+    width:150px;
+    height:150px;
+
+    border-radius:90px;
+
+    border:4px solid #FFC107;
+
+    overflow:hidden;
+
+    box-shadow:0 0 25px rgba(255,193,7,.4);
+
+    animation:pulse 1.8s infinite;
+}
+
+.logo-wrapper img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+h1{
+
+    color:#FFC107;
+
+    letter-spacing:8px;
+
+    margin-top:25px;
+    margin-bottom:8px;
+
+    font-size:38px;
+}
+
+h3{
+
+    margin:0;
+
+    color:white;
+
+    letter-spacing:4px;
+
+    font-weight:600;
+}
+
+p{
+
+    color:#cfd8dc;
+
+    margin-top:12px;
+
+    font-size:15px;
+}
+
+.loader{
+
+    width:45px;
+    height:45px;
+
+    margin-top:35px;
+
+    border-radius:50%;
+
+    border:5px solid rgba(255,255,255,.2);
+
+    border-top:5px solid #FFC107;
+
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+
+    100%{
+        transform:rotate(360deg);
+    }
+
+}
+
+@keyframes pulse{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.06);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+</style>
+ <script src="flutter_bootstrap.js" async></script>
+
+</html>

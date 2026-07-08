@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369090389178",
+    "project_id": "npms-6ab88",
+    "storage_bucket": "npms-6ab88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369090389178:android:9e6acbe4d170d6d23b4e83",
+        "android_client_info": {
+          "package_name": "com.npms.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD078hyhkacgDD3FvusXFFEU8GGZUs31lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369090389178:android:3b9bcb33a988b3f73b4e83",
+        "android_client_info": {
+          "package_name": "com.rentloco.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD078hyhkacgDD3FvusXFFEU8GGZUs31lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
